@@ -1,0 +1,8 @@
+POS SYSTEM V 1.2.0
+
+SYSTEM REQUIREMENTS:
+	- Windows 10
+	- SQL Server Express 2016
+	- Crystal Report Viewer 13.0.22
+	- .Net Framework 4.6.1
+	- SQL Backup master

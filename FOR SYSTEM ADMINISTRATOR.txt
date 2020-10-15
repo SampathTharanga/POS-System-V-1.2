@@ -1,0 +1,40 @@
+STEP 01
+	- If not exist ".Net Framework 4.6.1, SQL Server Express 2016 and Crystal Report Viewer 13.0.22" then install those softwares before installing POS System V1.2.0
+
+STEP 02
+	- Open "Sql Server Configuration Manager" and stop "SQL Server (SQLEXPRESS)" if running.
+
+STEP 03
+	- Go to "C:\Program Files\Microsoft SQL Server\MSSQL13.SQLEXPRESS\MSSQL\DATA" location and paste there database ("pos_system.mdf" and "pos_system_log.ldf").
+
+STEP 04
+	- Double click "POS System Setup" and Enter the one of the "serial number" in the list.
+
+STEP 05
+	- And following the instruction and go head. Then show the "Configure SQL Connection" window.
+
+STEP 06
+	- Server : .\SQLEXPRESS
+	- Unchecked the "Trusted Connection" check box.
+	- Username : genesip
+	- Password : genesip
+	- Database : click the "..." button and select "pos_system" database.
+	- Click "Install" and go head.
+
+STEP 07
+	- After finished the installment open the POS system using the desktop shortcut.
+
+STEP 08
+	- Enter default login details Username and password are same "Admin" word.
+
+STEP 09
+	- Now you can login system and working there.
+
+STEP 10
+	- IMPORTANT, go to "USERS" window and double click "Admin" data row. Then open new window and please select the "Security Question" and enter the its "Security Answer" and click update button.
+
+STEP 11
+	- Also change "Company details".
+
+STEP 12
+	- Enjoy!!!
